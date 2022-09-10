@@ -46,3 +46,28 @@
 
 // Example Explanation
 //  If the given integer is negative like -123 the output is also negative -321.
+
+
+
+int Solution::reverse(int A) {
+   int negflag=0;
+if(A<0)
+{
+negflag=1;
+A = A*-1;
+}
+long int ret=0;
+while(A!=0)
+{
+ret = ret*10 + A%10;
+A = A/10;
+if(ret<INT_MIN || ret>INT_MAX)
+{
+ret=0;
+break;
+}
+}
+if(negflag==1) ret = ret*-1;
+
+return ret;
+}
