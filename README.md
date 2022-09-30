@@ -13,7 +13,8 @@
 ## Contributing
 
 Before creating a PR or issue, please do the following:
-Check the [Contribution](https://github.com/bhumikatewary/Practice-Problems/blob/d46e7930e947b3df7811f50c3e13f014b166e6fe/others/Contributing.md) Guide.
+Check the [Contribution](https://github.com/bhumikatewary/Practice-Problems/blob/d46e7930e947b3df7811f50c3e13f014b166e6fe/others/Contributing.md) Guide.<br>
+You can also update the repository according to this structure: [Arrays](https://github.com/bhumikatewary/Practice-Problems/tree/main/Arrays)
 
 ## Articles for your reference
 
