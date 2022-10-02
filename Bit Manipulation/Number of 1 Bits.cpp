@@ -30,6 +30,7 @@
 
 
 
+#include <bit>
 
 int Solution::numSetBits(unsigned int A) {
     // Do not write main() function.
