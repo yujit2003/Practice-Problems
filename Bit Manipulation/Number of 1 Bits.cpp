@@ -47,3 +47,7 @@ unsigned int count=0;
     
     
 }
+
+int Solution::numSetBits2(unsigned int A) {
+    return std::popcount(A);
+}
